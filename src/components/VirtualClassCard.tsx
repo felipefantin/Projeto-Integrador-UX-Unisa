@@ -1,4 +1,3 @@
-import React from 'react';
 import { AcademicCapIcon } from './Icons';
 
 export interface VirtualClassCardProps {

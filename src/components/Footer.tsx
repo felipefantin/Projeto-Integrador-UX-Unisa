@@ -1,4 +1,3 @@
-import React from 'react';
 import { PageName, NAV_ITEMS } from '../types';
 import { PaperAirplaneIcon } from './Icons';
 

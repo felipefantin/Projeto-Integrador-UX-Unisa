@@ -1,21 +1,24 @@
 {
-  "name": "projeto-integrador-ux-unisa",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": { 
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  }, 
-  "devDependencies": {
-    "@types/node": "^24.0.1",
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
-    "vite": "^6.3.5"
-  },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
-  }
+ "name": "projeto-integrador-ux-unisa",
+ "private": true,
+ "version": "0.0.0",
+ "type": "module",
+ "scripts": {
+  "dev": "vite",
+  "build": "tsc -b && vite build",
+  "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview",
+  "deploy": "npm run build && cp dist/index.html dist/404.html && git add dist && git commit -m 'Deploy to GitHub Pages' && git push origin main"
+ },
+ "dependencies": {
+  "react": "^19.1.0",
+  "react-dom": "^19.1.0"
+ },
+ "devDependencies": {
+  "@types/node": "^24.0.1",
+  "@types/react": "^19.1.8",
+  "@types/react-dom": "^19.1.6",
+  "typescript": "^5.8.3",
+  "vite": "^6.3.5"
+ }
 }
