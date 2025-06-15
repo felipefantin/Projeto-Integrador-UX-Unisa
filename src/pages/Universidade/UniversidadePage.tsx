@@ -1,4 +1,3 @@
-import React from 'react';
 import { BuildingLibraryIcon, BeakerIcon, UserGroupIcon, AcademicCapIcon, PresentationChartBarIcon } from '../../components/Icons';
 
 const UniversidadePage = () => {

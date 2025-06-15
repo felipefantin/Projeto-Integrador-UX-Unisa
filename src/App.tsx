@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { PageName } from './types';
 import Header from './components/Header';
 import Footer from './components/Footer';

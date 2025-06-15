@@ -1,4 +1,3 @@
-import React from 'react';
 import { PresentationChartBarIcon, BuildingLibraryIcon, BeakerIcon, UserGroupIcon, PlusIcon, PaperAirplaneIcon, AcademicCapIcon } from '../../components/Icons';
 
 const ProfessorPage = () => {

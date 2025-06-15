@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CourseCard from '../../components/CourseCard';
 import { SearchIcon, ChevronDownIcon } from '../../components/Icons';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import VirtualClassCard from '../../components/VirtualClassCard';
 import { AcademicCapIcon, BuildingLibraryIcon, BeakerIcon, ChevronDownIcon } from '../../components/Icons';
 
